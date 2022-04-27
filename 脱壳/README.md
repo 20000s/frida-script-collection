@@ -7,14 +7,11 @@ unpack.js
 可以应对第二代壳（指令提取）
 
 
-
-
-
 unpackdex.js是hook openmemory opencommpn dalvikopen的
 
 只能脱整体壳 指令提取是空壳
 
-frida -U -f com.xxx.xxx.xxx -l dupDex.js --no-pause
+frida -U -f com.xxx.xxx.xxx -l dumpDex.js --no-pause
 
 
 
@@ -27,3 +24,7 @@ hook defineclass
 frida-dexdump
 
 内存遍历寻找dex035或是深度搜索 符合dex文件结构
+
+
+frida_unpack
+frida hook opencommn openmemory 有完整签名 android 7 android 10 测试过
