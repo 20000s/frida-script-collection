@@ -27,4 +27,4 @@ frida-dexdump
 
 
 frida_unpack
-frida hook opencommn openmemory 有完整签名 android 7 android 10 测试过
+frida hook opencommn openmemory 有完整签名 android 7 android 10 测试过 (360壳)
